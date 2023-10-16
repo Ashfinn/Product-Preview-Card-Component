@@ -128,7 +128,7 @@ button::before {
   #description {
     width: 75%;
     padding-bottom: 10%;
-    padding-right: 10%;
+    padding-right: 20%;
     padding-left: 5%;
   }
 }
