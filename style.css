@@ -99,13 +99,6 @@ button:hover {
   background-color: hsl(159, 33%, 25%);
 }
 
-button::before {
-  content: url(/images/icon-cart.svg);
-  font-size: 18px;
-  margin-left: -10px; /* Add spacing between the icon and text */
-  margin-right: 10px;
-}
-
 @media (max-width: 700px) {
   /* Apply styles when the screen width is 768px or less */
   #wrapper {
