@@ -80,9 +80,11 @@ img {
 }
 #price1 {
   font-family: "Fraunces";
-  font-size: 30px;
+  font-size: 35px;
   margin-top: 0;
+  margin-bottom: 20px;
   color: hsl(158, 35%, 45%);
+  font-weight: 900;
 }
 
 #price2 {
@@ -93,10 +95,21 @@ img {
 }
 button {
   background-color: hsl(158, 35%, 45%);
-  padding: 10px 50px;
+  padding: 10px;
+  margin-left: 0px;
+  margin-right: 40px;
   color: white;
   font-family: "montserrat";
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+#cart {  
+  padding-right: 8px;
 }
 
 button:hover {
