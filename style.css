@@ -8,36 +8,33 @@
 }
 
 body {
-  background-color: #e4d9d0;
-  margin: 0;
-  height: 100vh;
+  font-size: 14px;
+  background-color: hsl(30, 38%, 92%);
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
 #wrapper {
   /*styles for the wrapper*/
   background-color: white;
   display: flex;
-  width: 660px;
+  width: 600px;
   height: 440px;
   flex-direction: row;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   flex-wrap: wrap;
   overflow: hidden;
+  max-width: 100%;
 }
 
 img {
-  display: flex;
-  height: auto;
   max-width: 100%;
   max-height: 100%;
-  margin: 0;
   border-radius: 10px;
-  justify-content: left;
-  padding-right: 10%;
+  padding-right: 5%;
 }
 
 .mobile {
@@ -57,7 +54,7 @@ img {
   /*just the text PERFUME*/
   font-family: "montserrat";
   color: #6b6664;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 #heading {
@@ -65,7 +62,7 @@ img {
 }
 
 #paragraph {
-  font-family:'montserrat' sans-serif;
+  font-family:'montserrat';
   color: #6b6664;
   margin-top: 0;
 }
@@ -73,15 +70,13 @@ img {
   /*price wrapper and the other two are the prices*/
   display: flex;
   justify-content: space-between;
-  margin-left: 0px;
 }
 #price1 {
-  font-family: "Fraunces" sans-serif;
+  font-family: "Fraunces";
   font-size: 35px;
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   color: hsl(158, 35%, 45%);
-  font-weight: 900;
+  font-weight: 800;
 }
 
 #price2 {
@@ -101,7 +96,6 @@ button {
   display: flex;
   flex-direction: row;
   border-radius: 5px;
-  display: flex;
   justify-content: center;
   font-weight: 600;
 }
