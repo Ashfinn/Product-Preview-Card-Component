@@ -65,7 +65,7 @@ img {
 }
 
 #paragraph {
-  font-family: "montserrat";
+  font-family:'montserrat' sans-serif;
   color: #6b6664;
   margin-top: 0;
 }
@@ -76,7 +76,7 @@ img {
   margin-left: 0px;
 }
 #price1 {
-  font-family: "Fraunces";
+  font-family: "Fraunces" sans-serif;
   font-size: 35px;
   margin-top: 0;
   margin-bottom: 20px;
@@ -96,7 +96,7 @@ button {
   margin-left: 0px;
   margin-right: 40px;
   color: white;
-  font-family: "montserrat";
+  font-family: "montserrat" sans-serif;
   text-align: center;
   display: flex;
   flex-direction: row;
